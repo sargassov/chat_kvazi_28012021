@@ -63,7 +63,6 @@ public class ClientHandler {
                             out.writeUTF(Command.END);
                             break;
                         }
-
                         server.broadcastMsg(str, this.nickname);
                     }
                 } catch (IOException e) {
