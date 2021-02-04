@@ -55,7 +55,6 @@ public class ClientHandler {
                             }
                         }
                     }
-
                     //цикл работы
                     while (true) {
                         String str = in.readUTF();
